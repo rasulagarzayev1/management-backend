@@ -1,5 +1,5 @@
 const isStringValid = (str) => {
-	if (!str?.trim()?.length || !str) {
+	if (!str || !str.trim().length) {
 		return false;
 	}
 
